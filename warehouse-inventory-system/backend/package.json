@@ -1,0 +1,30 @@
+{
+  "name": "warehouse-inventory-backend",
+  "version": "1.0.0",
+  "description": "DBMS Course Project - Warehouse & Inventory Management System Backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:init": "node src/scripts/initDb.js",
+    "db:seed": "node src/scripts/seedDb.js"
+  },
+  "keywords": [
+    "warehouse",
+    "inventory",
+    "mysql",
+    "dbms",
+    "express"
+  ],
+  "author": "DBMS Project Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.12.0"
+  }
+}
